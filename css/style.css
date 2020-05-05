@@ -5,7 +5,7 @@ body {
 }
 
 p {
-    font-family: Georgia, "Times New Roman", Serif;
+    font-family: Georgia, Times New Roman, serif;
     font-size: 14px;
     line-height: 20px;
 }
@@ -182,6 +182,30 @@ p {
 
 .call p {
     margin-bottom: 20px;
+}
+
+/* Portifolo */
+
+.portifolio{
+    width: 100%;
+    background: black;
+    padding: 40px 0;
+}
+
+.portifolio .subtitulo{
+    color: #FEC63E;
+}
+
+.portifolio .subtitulo:after{
+    background: #FEC63E;
+}
+
+.portifolio_lista li:last-child {
+    margin-top: 20px;
+}
+
+.portifolio .call p {
+    color: white;
 }
 
 
